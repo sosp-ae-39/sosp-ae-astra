@@ -1,0 +1,902 @@
+04/12/2023 10:03:11 - INFO - __main__ - Namespace(data_type='fp16', dataset='../alpaca_opt_text_completion.pkl', duration=3600, ft_model_location='opt-13b/c-model', lib_path='fastertransformer/build/lib/libth_transformer.so', max_batch_size=14, model_name='facebook/opt-13b', n1=0.0, n2=0.0, n2_beam=1.0, n3=0.0, n4=0.0, n4_beam=0.0, n6=0.0, n6_beam=0.0, n8_beam=0.0, output_dir='exp/alpaca/facebook/opt-13b-tp1-pp1/n2-beam/ft/bs14/req-rate-5.0/seed0/duration-3600', pipeline_para_size=1, request_rate=5.0, seed=0, tensor_para_size=1, weights_data_type='fp16')
+opt-13b/c-model/1-gpu/model.layers.0.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.1.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.2.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.3.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.4.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.5.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.6.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.7.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.8.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.9.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.10.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.11.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.12.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.13.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.14.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.15.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.16.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.17.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.18.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.19.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.20.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.21.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.22.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.23.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.24.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.25.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.26.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.27.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.28.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.29.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.30.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.31.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.32.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.33.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.34.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.35.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.36.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.37.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.38.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.39.input_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.0.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.1.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.2.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.3.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.4.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.5.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.6.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.7.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.8.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.9.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.10.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.11.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.12.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.13.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.14.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.15.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.16.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.17.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.18.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.19.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.20.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.21.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.22.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.23.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.24.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.25.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.26.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.27.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.28.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.29.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.30.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.31.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.32.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.33.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.34.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.35.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.36.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.37.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.38.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.39.input_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.0.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.1.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.2.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.3.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.4.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.5.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.6.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.7.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.8.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.9.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.10.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.11.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.12.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.13.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.14.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.15.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.16.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.17.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.18.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.19.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.20.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.21.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.22.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.23.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.24.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.25.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.26.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.27.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.28.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.29.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.30.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.31.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.32.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.33.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.34.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.35.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.36.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.37.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.38.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.39.attention.query_key_value.weight.0.bin torch.Size([78643200])
+opt-13b/c-model/1-gpu/model.layers.0.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.1.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.2.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.3.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.4.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.5.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.6.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.7.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.8.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.9.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.10.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.11.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.12.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.13.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.14.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.15.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.16.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.17.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.18.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.19.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.20.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.21.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.22.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.23.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.24.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.25.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.26.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.27.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.28.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.29.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.30.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.31.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.32.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.33.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.34.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.35.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.36.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.37.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.38.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.39.attention.query_key_value.bias.0.bin torch.Size([15360])
+opt-13b/c-model/1-gpu/model.layers.0.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.1.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.2.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.3.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.4.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.5.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.6.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.7.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.8.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.9.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.10.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.11.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.12.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.13.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.14.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.15.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.16.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.17.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.18.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.19.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.20.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.21.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.22.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.23.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.24.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.25.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.26.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.27.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.28.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.29.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.30.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.31.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.32.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.33.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.34.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.35.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.36.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.37.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.38.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.39.attention.dense.weight.0.bin torch.Size([26214400])
+opt-13b/c-model/1-gpu/model.layers.0.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.1.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.2.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.3.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.4.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.5.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.6.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.7.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.8.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.9.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.10.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.11.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.12.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.13.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.14.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.15.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.16.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.17.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.18.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.19.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.20.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.21.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.22.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.23.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.24.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.25.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.26.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.27.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.28.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.29.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.30.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.31.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.32.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.33.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.34.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.35.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.36.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.37.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.38.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.39.attention.dense.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.0.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.1.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.2.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.3.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.4.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.5.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.6.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.7.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.8.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.9.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.10.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.11.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.12.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.13.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.14.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.15.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.16.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.17.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.18.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.19.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.20.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.21.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.22.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.23.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.24.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.25.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.26.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.27.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.28.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.29.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.30.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.31.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.32.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.33.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.34.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.35.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.36.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.37.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.38.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.39.post_attention_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.0.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.1.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.2.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.3.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.4.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.5.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.6.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.7.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.8.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.9.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.10.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.11.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.12.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.13.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.14.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.15.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.16.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.17.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.18.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.19.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.20.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.21.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.22.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.23.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.24.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.25.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.26.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.27.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.28.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.29.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.30.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.31.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.32.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.33.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.34.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.35.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.36.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.37.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.38.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.39.post_attention_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.0.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.1.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.2.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.3.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.4.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.5.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.6.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.7.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.8.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.9.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.10.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.11.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.12.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.13.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.14.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.15.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.16.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.17.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.18.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.19.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.20.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.21.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.22.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.23.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.24.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.25.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.26.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.27.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.28.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.29.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.30.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.31.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.32.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.33.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.34.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.35.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.36.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.37.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.38.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.39.mlp.dense_h_to_4h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.0.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.1.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.2.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.3.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.4.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.5.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.6.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.7.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.8.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.9.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.10.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.11.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.12.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.13.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.14.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.15.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.16.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.17.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.18.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.19.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.20.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.21.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.22.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.23.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.24.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.25.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.26.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.27.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.28.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.29.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.30.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.31.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.32.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.33.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.34.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.35.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.36.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.37.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.38.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.39.mlp.dense_h_to_4h.bias.0.bin torch.Size([20480])
+opt-13b/c-model/1-gpu/model.layers.0.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.1.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.2.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.3.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.4.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.5.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.6.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.7.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.8.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.9.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.10.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.11.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.12.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.13.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.14.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.15.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.16.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.17.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.18.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.19.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.20.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.21.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.22.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.23.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.24.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.25.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.26.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.27.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.28.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.29.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.30.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.31.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.32.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.33.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.34.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.35.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.36.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.37.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.38.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.39.mlp.dense_4h_to_h.weight.0.bin torch.Size([104857600])
+opt-13b/c-model/1-gpu/model.layers.0.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.1.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.2.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.3.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.4.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.5.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.6.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.7.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.8.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.9.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.10.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.11.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.12.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.13.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.14.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.15.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.16.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.17.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.18.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.19.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.20.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.21.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.22.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.23.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.24.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.25.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.26.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.27.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.28.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.29.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.30.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.31.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.32.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.33.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.34.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.35.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.36.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.37.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.38.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.layers.39.mlp.dense_4h_to_h.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.final_layernorm.weight.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.final_layernorm.bias.bin torch.Size([5120])
+opt-13b/c-model/1-gpu/model.wpe.bin torch.Size([10485760])
+opt-13b/c-model/1-gpu/model.wte.bin torch.Size([257392640])
+opt-13b/c-model/1-gpu/model.lm_head.weight.bin torch.Size([257392640])
+[WARNING] gemm_config.in is not found; using default GEMM algo
+[FT][WARNING] Skip NCCL initialization since requested tensor/pipeline parallel sizes are equals to 1.
+[FT][INFO] Device NVIDIA A100-SXM4-80GB
+weights loaded
+04/12/2023 10:03:32 - INFO - __main__ - Warming up.
+num groups in the queue: 8
+batch size 8 num groups 8 input len 8 output len 32
+FT latency 0.6950643062591553
+output len 32 40
+04/12/2023 10:03:33 - INFO - __main__ - Start benchmarking.
+Finished requests:   0%|          | 0/17922 [00:00<?, ?it/s]num groups in the queue: 1
+batch size 1 num groups 1 input len 16 output len 60
+FT latency 1.1151010990142822
+output len 60 76
+num groups in the queue: 7
+batch size 7 num groups 7 input len 18 output len 227
+FT latency 4.538628339767456
+output len 227 245
+num groups in the queue: 29
+batch size 14 num groups 14 input len 34 output len 167
+FT latency 3.4492862224578857
+output len 167 201
+num groups in the queue: 32
+batch size 14 num groups 14 input len 48 output len 204
+FT latency 4.320266485214233
+output len 204 252
+num groups in the queue: 52
+batch size 14 num groups 14 input len 48 output len 483
+FT latency 11.216151714324951
+output len 483 531
+num groups in the queue: 106
+batch size 14 num groups 14 input len 58 output len 128
+FT latency 2.6820216178894043
+output len 128 186
+num groups in the queue: 109
+batch size 14 num groups 14 input len 69 output len 257
+FT latency 5.628603458404541
+output len 257 326
+num groups in the queue: 128
+batch size 14 num groups 14 input len 39 output len 147
+FT latency 3.029851198196411
+output len 147 186
+num groups in the queue: 127
+batch size 14 num groups 14 input len 85 output len 261
+FT latency 5.807316541671753
+output len 261 346
+num groups in the queue: 132
+batch size 14 num groups 14 input len 33 output len 140
+FT latency 2.859642267227173
+output len 140 173
+num groups in the queue: 124
+batch size 14 num groups 14 input len 141 output len 349
+FT latency 8.297823905944824
+output len 349 490
+num groups in the queue: 146
+batch size 14 num groups 14 input len 32 output len 143
+FT latency 2.9283390045166016
+output len 143 175
+num groups in the queue: 145
+batch size 14 num groups 14 input len 28 output len 178
+FT latency 3.6675169467926025
+output len 178 206
+num groups in the queue: 146
+batch size 14 num groups 14 input len 87 output len 139
+FT latency 3.014355421066284
+output len 139 226
+num groups in the queue: 146
+batch size 14 num groups 14 input len 44 output len 156
+FT latency 3.2315924167633057
+output len 156 200
+num groups in the queue: 152
+batch size 14 num groups 14 input len 46 output len 145
+FT latency 3.020692825317383
+output len 145 191
+num groups in the queue: 150
+batch size 14 num groups 14 input len 43 output len 154
+FT latency 3.1874022483825684
+output len 154 197
+num groups in the queue: 159
+batch size 14 num groups 14 input len 63 output len 202
+FT latency 4.338752746582031
+output len 202 265
+num groups in the queue: 163
+batch size 14 num groups 14 input len 28 output len 142
+FT latency 2.8962972164154053
+output len 142 170
+num groups in the queue: 155
+batch size 14 num groups 14 input len 64 output len 200
+FT latency 4.274360179901123
+output len 200 264
+num groups in the queue: 161
+batch size 14 num groups 14 input len 58 output len 118
+FT latency 2.4771840572357178
+output len 118 176
+num groups in the queue: 157
+batch size 14 num groups 14 input len 80 output len 118
+FT latency 2.5398876667022705
+output len 118 198
+num groups in the queue: 158
+batch size 14 num groups 14 input len 42 output len 253
+FT latency 5.414015054702759
+output len 253 295
+num groups in the queue: 161
+batch size 14 num groups 14 input len 33 output len 232
+FT latency 4.885791778564453
+output len 232 265
+num groups in the queue: 170
+batch size 14 num groups 14 input len 42 output len 165
+FT latency 3.4295084476470947
+output len 165 207
+num groups in the queue: 170
+batch size 14 num groups 14 input len 79 output len 450
+FT latency 10.585951328277588
+output len 450 529
+num groups in the queue: 218
+batch size 14 num groups 14 input len 22 output len 135
+FT latency 2.720576047897339
+output len 135 157
+num groups in the queue: 211
+batch size 14 num groups 14 input len 34 output len 181
+FT latency 3.7536463737487793
+output len 181 215
+num groups in the queue: 209
+batch size 14 num groups 14 input len 37 output len 211
+FT latency 4.422993421554565
+output len 211 248
+num groups in the queue: 214
+batch size 14 num groups 14 input len 20 output len 168
+FT latency 3.4165472984313965
+output len 168 188
+num groups in the queue: 209
+batch size 14 num groups 14 input len 28 output len 120
+FT latency 2.4277141094207764
+output len 120 148
+num groups in the queue: 202
+batch size 14 num groups 14 input len 45 output len 250
+FT latency 5.350977659225464
+output len 250 295
+num groups in the queue: 210
+batch size 14 num groups 14 input len 23 output len 249
+FT latency 5.228627920150757
+output len 249 272
+num groups in the queue: 217
+batch size 14 num groups 14 input len 35 output len 246
+FT latency 5.212857246398926
+output len 246 281
+num groups in the queue: 232
+batch size 14 num groups 14 input len 64 output len 145
+FT latency 3.071554660797119
+output len 145 209
+num groups in the queue: 235
+batch size 14 num groups 14 input len 60 output len 151
+FT latency 3.1913087368011475
+output len 151 211
+num groups in the queue: 234
+batch size 14 num groups 14 input len 89 output len 244
+FT latency 5.424811840057373
+output len 244 333
+num groups in the queue: 250
+batch size 14 num groups 14 input len 29 output len 165
+FT latency 3.3817687034606934
+output len 165 194
+num groups in the queue: 252
+batch size 14 num groups 14 input len 34 output len 139
+FT latency 2.842651128768921
+output len 139 173
+num groups in the queue: 251
+batch size 14 num groups 14 input len 23 output len 102
+FT latency 2.0378262996673584
+output len 102 125
+num groups in the queue: 246
+batch size 14 num groups 14 input len 38 output len 93
+FT latency 1.8982477188110352
+output len 93 131
+num groups in the queue: 243
+batch size 14 num groups 14 input len 51 output len 209
+FT latency 4.440023422241211
+output len 209 260
+num groups in the queue: 253
+batch size 14 num groups 14 input len 84 output len 114
+FT latency 2.487868309020996
+output len 114 198
+num groups in the queue: 249
+batch size 14 num groups 14 input len 64 output len 128
+FT latency 2.6924211978912354
+output len 128 192
+num groups in the queue: 250
+batch size 14 num groups 14 input len 32 output len 148
+FT latency 3.027381658554077
+output len 148 180
+num groups in the queue: 257
+batch size 14 num groups 14 input len 23 output len 135
+FT latency 2.7182745933532715
+output len 135 158
+num groups in the queue: 255
+batch size 14 num groups 14 input len 28 output len 141
+FT latency 2.8762881755828857
+output len 141 169
+num groups in the queue: 257
+batch size 14 num groups 14 input len 123 output len 116
+FT latency 2.646333694458008
+output len 116 239
+num groups in the queue: 256
+batch size 14 num groups 14 input len 36 output len 450
+FT latency 10.265955686569214
+output len 450 486
+num groups in the queue: 300
+batch size 14 num groups 14 input len 40 output len 137
+FT latency 2.8184213638305664
+output len 137 177
+num groups in the queue: 309
+batch size 14 num groups 14 input len 65 output len 148
+FT latency 3.146029472351074
+output len 148 213
+num groups in the queue: 316
+batch size 14 num groups 14 input len 27 output len 126
+FT latency 2.547440528869629
+output len 126 153
+num groups in the queue: 312
+batch size 14 num groups 14 input len 41 output len 123
+FT latency 2.5171327590942383
+output len 123 164
+num groups in the queue: 304
+batch size 14 num groups 14 input len 33 output len 168
+FT latency 3.465358257293701
+output len 168 201
+num groups in the queue: 309
+batch size 14 num groups 14 input len 44 output len 437
+FT latency 9.986136198043823
+output len 437 481
+num groups in the queue: 348
+batch size 14 num groups 14 input len 27 output len 143
+FT latency 2.9016213417053223
+output len 143 170
+num groups in the queue: 346
+batch size 14 num groups 14 input len 34 output len 170
+FT latency 3.497978448867798
+output len 170 204
+num groups in the queue: 352
+batch size 14 num groups 14 input len 29 output len 119
+FT latency 2.4119279384613037
+output len 119 148
+num groups in the queue: 347
+batch size 14 num groups 14 input len 36 output len 96
+FT latency 1.9485607147216797
+output len 96 132
+num groups in the queue: 341
+batch size 14 num groups 14 input len 103 output len 178
+FT latency 3.9526939392089844
+output len 178 281
+num groups in the queue: 353
+batch size 14 num groups 14 input len 68 output len 261
+FT latency 5.725130319595337
+output len 261 329
+num groups in the queue: 361
+batch size 14 num groups 14 input len 38 output len 132
+FT latency 2.710371971130371
+output len 132 170
+num groups in the queue: 356
+batch size 14 num groups 14 input len 24 output len 96
+FT latency 1.9202806949615479
+output len 96 120
+num groups in the queue: 349
+batch size 14 num groups 14 input len 49 output len 184
+FT latency 3.883160352706909
+output len 184 233
+num groups in the queue: 356
+batch size 14 num groups 14 input len 42 output len 316
+FT latency 6.909516096115112
+output len 316 358
+num groups in the queue: 374
+batch size 14 num groups 14 input len 28 output len 135
+FT latency 2.7415707111358643
+output len 135 163
+num groups in the queue: 377
+batch size 14 num groups 14 input len 172 output len 113
+FT latency 2.736238718032837
+output len 113 285
+num groups in the queue: 375
+batch size 14 num groups 14 input len 30 output len 83
+FT latency 1.6717286109924316
+output len 83 113
+num groups in the queue: 369
+batch size 14 num groups 14 input len 76 output len 229
+FT latency 5.009212970733643
+output len 229 305
+num groups in the queue: 380
+batch size 14 num groups 14 input len 34 output len 87
+FT latency 1.7574613094329834
+output len 87 121
+num groups in the queue: 374
+batch size 14 num groups 14 input len 39 output len 283
+FT latency 6.092344522476196
+output len 283 322
+num groups in the queue: 390
+batch size 14 num groups 14 input len 50 output len 308
+FT latency 6.754726409912109
+output len 308 358
+num groups in the queue: 415
+batch size 14 num groups 14 input len 41 output len 260
+FT latency 5.5701844692230225
+output len 260 301
+num groups in the queue: 429
+batch size 14 num groups 14 input len 77 output len 173
+FT latency 3.733118772506714
+output len 173 250
+num groups in the queue: 435
+batch size 14 num groups 14 input len 44 output len 265
+FT latency 5.708220481872559
+output len 265 309
+num groups in the queue: 461
+batch size 14 num groups 14 input len 38 output len 209
+FT latency 4.394992351531982
+output len 209 247
+num groups in the queue: 469
+batch size 14 num groups 14 input len 63 output len 186
+FT latency 3.962839126586914
+output len 186 249
+num groups in the queue: 476
+batch size 14 num groups 14 input len 36 output len 113
+FT latency 2.297349452972412
+output len 113 149
+num groups in the queue: 469
+batch size 14 num groups 14 input len 39 output len 89
+FT latency 1.8147461414337158
+output len 89 128
+num groups in the queue: 465
+batch size 14 num groups 14 input len 117 output len 183
+FT latency 4.1116108894348145
+output len 183 300
+num groups in the queue: 465
+batch size 14 num groups 14 input len 45 output len 154
+FT latency 3.1880927085876465
+output len 154 199
+num groups in the queue: 463
+batch size 14 num groups 14 input len 31 output len 194
+FT latency 4.018782377243042
+output len 194 225
+num groups in the queue: 466
+batch size 14 num groups 14 input len 32 output len 240
+FT latency 5.042696475982666
+output len 240 272
+num groups in the queue: 476
+batch size 14 num groups 14 input len 57 output len 174
+FT latency 3.684626817703247
+output len 174 231
+num groups in the queue: 478
+batch size 14 num groups 14 input len 42 output len 156
+FT latency 3.227191686630249
+output len 156 198
+num groups in the queue: 481
+batch size 14 num groups 14 input len 38 output len 215
+FT latency 4.523918151855469
+output len 215 253
+num groups in the queue: 493
+batch size 14 num groups 14 input len 38 output len 360
+FT latency 7.964798212051392
+output len 360 398
+num groups in the queue: 529
+batch size 14 num groups 14 input len 34 output len 227
+FT latency 4.771805286407471
+output len 227 261
+num groups in the queue: 542
+batch size 14 num groups 14 input len 81 output len 186
+FT latency 4.041778802871704
+output len 186 267
+num groups in the queue: 541
+batch size 14 num groups 14 input len 118 output len 134
+FT latency 3.0137932300567627
+output len 134 252
+num groups in the queue: 543
+batch size 14 num groups 14 input len 42 output len 187
+FT latency 3.919182777404785
+output len 187 229
+num groups in the queue: 553
+batch size 14 num groups 14 input len 142 output len 298
+FT latency 6.968609809875488
+output len 298 440
+num groups in the queue: 578
+batch size 14 num groups 14 input len 33 output len 181
+FT latency 3.747878313064575
+output len 181 214
+num groups in the queue: 581
+batch size 14 num groups 14 input len 27 output len 213
+FT latency 4.416317701339722
+output len 213 240
+num groups in the queue: 590
+batch size 14 num groups 14 input len 40 output len 241
+FT latency 5.117745876312256
+output len 241 281
+num groups in the queue: 600
+batch size 14 num groups 14 input len 117 output len 192
+FT latency 4.331958293914795
+output len 192 309
+num groups in the queue: 602
+batch size 14 num groups 14 input len 36 output len 238
+FT latency 5.030884027481079
+output len 238 274
+num groups in the queue: 609
+batch size 14 num groups 14 input len 27 output len 446
+FT latency 10.116517782211304
+output len 446 473
+num groups in the queue: 638
+batch size 14 num groups 14 input len 25 output len 182
+FT latency 3.736386775970459
+output len 182 207
+num groups in the queue: 642
+batch size 14 num groups 14 input len 27 output len 131
+FT latency 2.647319793701172
+output len 131 158
+num groups in the queue: 642
+batch size 14 num groups 14 input len 64 output len 145
+FT latency 3.0652780532836914
+output len 145 209
+num groups in the queue: 649
+batch size 14 num groups 14 input len 48 output len 278
