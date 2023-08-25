@@ -2,6 +2,8 @@
 
 set -e
 
+eval "$(conda shell.bash hook)"
+
 # Create conda environments and install dependencies
 for name in "astra" "orca" "prefix_astra" "prefix_orca";
 do

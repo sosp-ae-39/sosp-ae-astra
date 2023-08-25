@@ -2,6 +2,8 @@
 
 set -e
 
+eval "$(conda shell.bash hook)"
+
 conda activate astra
 cd astra
 

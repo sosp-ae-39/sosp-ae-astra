@@ -16,7 +16,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-2023.07-1-Linux-x86_64.sh
 2. Set up new conda environments by running `setup.sh`:
 
 ```bash
-bash -i setup.sh  # Add -i to enable conda in the bash script.
+bash setup.sh
 ```
 This will create 4 new conda environments: `astra`, `orca`, `prefix-astra`, and `prefix-orca`.
 This process can take up to 1 hour due to CUDA compilation.
@@ -30,24 +30,24 @@ As running all experiments takes 200+ A100 GPU-hours and may require multi-GPU i
 Single GPU (1xA100-40GB) experiment with OPT-13B
 ```bash
 # NOTE: This experiment may take 6+ hours.
-bash -i experiments/fig12-13b-sharegpt.sh
+bash experiments/fig12-13b-sharegpt.sh
 python plot/plot_fig12.py results --subset n1-sharegpt --duration 600  # Saved to figures/n1-sharegpt.pdf
 
 # Optional: Same experiment on the Alpaca dataset.
 # NOTE: This experiment may take 6+ hours.
-bash -i experiments/fig12-13b-alpaca.sh
+bash experiments/fig12-13b-alpaca.sh
 python plot/plot_fig12.py results --subset n1-alpaca --duration 600  # Saved to figures/n1-alpaca.pdf
 ```
 
 ### Figure 14
 ```bash
 # NOTE: This experiment may take 18+ hours.
-bash -i experiments/fig14-beam.sh
+bash experiments/fig14-beam.sh
 python plot/plot_fig14.py results --subset beam --duration 600  # Saved to figures/beam.pdf
 
 # Optional: Experiment with parallel sampling.
 # NOTE: This experiment may take 18+ hours.
-bash -i experiments/fig14-parallel.sh
+bash experiments/fig14-parallel.sh
 python plot/plot_fig14.py results --subset parallel --duration 600  # Saved to figures/parallel.pdf
 ```
 
@@ -56,7 +56,7 @@ python plot/plot_fig14.py results --subset parallel --duration 600  # Saved to f
 ### Figure 2
 ```bash
 # NOTE: This experiment may take 6+ hours.
-bash -i experiments/fig2.sh
+bash experiments/fig2.sh
 python plot/plot_fig2.py  # Saved to figures/fig2.pdf
 ```
 
@@ -65,7 +65,7 @@ python plot/plot_fig2.py  # Saved to figures/fig2.pdf
 - Multi-GPU (4xA100-40GB) experiment with OPT-66B
 ```bash
 # NOTE: This experiment may take 12+ hours.
-bash -i experiments/fig12-66b.sh
+bash experiments/fig12-66b.sh
 python plot/plot_fig12.py results --subset n1-sharegpt --duration 600  # Saved to figures/n1-sharegpt.pdf
 python plot/plot_fig12.py results --subset n1-alpaca --duration 600  # Saved to figures/n1-alpaca.pdf
 ```
@@ -73,7 +73,7 @@ python plot/plot_fig12.py results --subset n1-alpaca --duration 600  # Saved to 
 - Multi-GPU (8xA100-80GB) experiment with OPT-175B
 ```bash
 # NOTE: This experiment may take 12+ hours.
-bash -i experiments/fig12-175b.sh
+bash experiments/fig12-175b.sh
 python plot/plot_fig12.py results --subset n1-sharegpt --duration 600  # Saved to figures/n1-sharegpt.pdf
 python plot/plot_fig12.py results --subset n1-alpaca --duration 600  # Saved to figures/n1-alpaca.pdf
 ```
@@ -107,14 +107,14 @@ The results will be stored in `~/cacheflow/benchmark/ft/exp`, which will be gath
 ### Figure 13
 ```bash
 # NOTE: This experiment may take 1.5+ hours.
-bash -i experiments/fig13.sh
+bash experiments/fig13.sh
 python plot/plot_fig13.py  # Saved to figures/fig13_a.pdf and figures/fig13_b.pdf
 ```
 
 ### Figure 15
 ```bash
 # NOTE: This experiment may take 3+ hours.
-bash -i experiments/fig15.sh
+bash experiments/fig15.sh
 python plot/plot_fig15.py  # Saved to figures/fig15_a.pdf and figures/fig15_b.pdf
 ```
 
@@ -151,24 +151,24 @@ The figure will be saved as `figures/prefix.pdf`. This figure corresponds to Fig
 ### Figure 17
 ```bash
 # NOTE: This experiment may take 12+ hours.
-bash -i experiments/fig17.sh
+bash experiments/fig17.sh
 python plot/plot_fig17.py results # Saved to figures/chat-sharegpt.pdf
 ```
 
 ### Figure 18
 ```bash
 # NOTE: This experiment may take 2+ hours.
-bash -i experiments/fig18-b.sh
+bash experiments/fig18-b.sh
 python plot/plot_fig18_b.py  # Saved to figures/fig18_b.pdf
 ```
 
 ### Figure 19
 ```bash
 # NOTE: This experiment may take 10+ minutes.
-bash -i experiments/fig19-a.sh
+bash experiments/fig19-a.sh
 python plot/plot_fig19_a.py  # Saved to figures/fig19_a.pdf
 
 # NOTE: This experiment may take 2+ hours.
-bash -i experiments/fig19-b.sh
+bash experiments/fig19-b.sh
 python plot/plot_fig19_b.py  # Saved to figures/fig19_b.pdf
 ```

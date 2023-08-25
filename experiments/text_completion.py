@@ -55,7 +55,8 @@ def run_exp(
         exp_path = './astra'
         len_estimator = None
 
-    cmd = (f'conda activate {conda_env}; '
+    cmd = ('eval "$(conda shell.bash hook)"; '
+           f'conda activate {conda_env}; '
            f'cd {exp_path}; '
            'python benchmark/benchmark_text_completion.py '
            f'--dataset {dataset} --model {model} -tp {tp} '
@@ -74,9 +75,7 @@ def run_exp(
         cmd += ' --always-swap'
     if memory_util is not None:
         cmd += f' --gpu-memory-utilization {memory_util}'
-    # Run cmd under conda env
-    cmd = f'bash -i -c "{cmd}"'
-    subprocess.run(cmd, shell=True, check=True)
+    subprocess.run(cmd, shell=True, check=False)
 
 
 if __name__ == '__main__':
